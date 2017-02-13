@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Java script</title></head>
+<body>
+    <p>TO SEE A SMALL MAGIC JUST PRESS THE BUTTONS ONE BY ONE</p>
+    <p id="htext"></p>
+    <button onclick="getText1()";>violet Text</button>
+     <button onclick="getText2()";>red Text</button>
+     <button onclick="getText3()";>orange Text</button>
+    <script type="text/javascript">
+ function getText1(){
+            var elem =  document.getElementById("htext");
+        elem.innerHTML ="<strong>hello world</strong><i>Javascript</i>";
+        
+        elem.style.fontSize="30px";
+		
+		elem.style.fontStyle="normal";
+		
+		elem.style.color="violet";
+        
+        }
+        function getText2(){
+            var elem =  document.getElementById("htext");
+        elem.innerHTML ="<strong>hello world</strong><i>Javascript</i>";
+        
+        elem.style.fontSize="50px";
+		elem.style.fontStyle="italic";
+    
+        elem.style.color="red";
+        
+        }
+        function getText3(){
+            var elem =  document.getElementById("htext");
+        elem.innerHTML ="<strong>hello world</strong><i>Javascript</i>";
+        
+        elem.style.fontSize="80px";
+    
+	     elem.style.fontStyle="oblique";
+        elem.style.color="orange";
+        
+        }
+    </script>
+    
+    
+    
+    
+    </body>
+
+
+</html>
